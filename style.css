@@ -1,0 +1,133 @@
+*{
+    padding: 0%;
+    margin: 0;
+
+}
+body{
+    background-color: rgb(0, 0, 0);
+    /* background-image: url('./images/img.png') ;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+/* .container{
+    background-color: rgb(0, 0, 0);
+    width: 100vw;
+    height: 100vh;
+} */
+
+.logo{
+    width: 200px;
+    height: 100px;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.title
+
+main{
+    text-align: center;
+    /* width: 70%; */
+    /* background-color: wheat; */
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    /* width: 70%; */
+    /* background-color: aqua; */
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    
+}
+.card img{
+    width: 250px;
+    height: 168px;
+    margin-right: 20px;
+    
+}
+
+/*  */
+.card{
+    width: 250px;
+    height: 168px;
+    /* background-color: aquamarine; */
+    margin-right: 20px;
+    position: relative;
+} 
+.remove{
+    position: absolute;
+    top: 0px;
+    right: 2px;
+    font-size: 48px;
+    color: rgb(43, 38, 38);
+    margin: 0px;
+    padding: 0px;
+}
+.remove:hover{
+    color: brown;
+    font-size: 50px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+/*  */
+#plus{
+    width: 70%;
+    height: 70%;
+    padding: 0px;
+    border-radius: 0%;
+    /* background-color: blueviolet; */
+    margin: auto;
+    margin-bottom: 5px;
+}
+#plus:hover{
+    /* width: 70%;
+    height: 70%;
+    padding: 0px; */
+    border-radius: 50%;
+    background-color: wheat;
+    /* margin: auto;
+    margin-bottom: 5px; */
+}
+
+
+.title h1{
+    font-size: 28px;
+    color: aliceblue;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+
+.manage-profile{
+    color: wheat;
+    border-style: solid;
+    border-width: 1px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 70px;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    font-size: 17px;
+}
+
+
+/* .test{
+    margin: 10px;
+
+    width: 250px;
+    height: 168px;
+    background-color: aquamarine;
+} */
+
+.profile-name{
+    text-align: center;
+    text-transform: capitalize;
+}
